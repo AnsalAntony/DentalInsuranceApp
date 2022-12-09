@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F02943C84400CF70FB /* AppDelegate.swift */; };
+		4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F22943C84400CF70FB /* SceneDelegate.swift */; };
+		4D54A9F52943C84400CF70FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F42943C84400CF70FB /* ViewController.swift */; };
+		4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9F62943C84400CF70FB /* Main.storyboard */; };
+		4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F92943C84400CF70FB /* DentalCare.xcdatamodeld */; };
+		4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9FC2943C84500CF70FB /* Assets.xcassets */; };
+		4D54AA002943C84500CF70FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */; };
+		4D54AA0B2943C84500CF70FB /* DentalCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA0A2943C84500CF70FB /* DentalCareTests.swift */; };
+		4D54AA152943C84500CF70FB /* DentalCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA142943C84500CF70FB /* DentalCareUITests.swift */; };
+		4D54AA172943C84500CF70FB /* DentalCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D54AA072943C84500CF70FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D54A9E52943C84400CF70FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D54A9EC2943C84400CF70FB;
+			remoteInfo = DentalCare;
+		};
+		4D54AA112943C84500CF70FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D54A9E52943C84400CF70FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D54A9EC2943C84400CF70FB;
+			remoteInfo = DentalCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D54A9ED2943C84400CF70FB /* DentalCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentalCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D54A9F02943C84400CF70FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D54A9F22943C84400CF70FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D54A9F42943C84400CF70FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D54A9F72943C84400CF70FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D54A9FA2943C84400CF70FB /* DentalCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DentalCare.xcdatamodel; sourceTree = "<group>"; };
+		4D54A9FC2943C84500CF70FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D54A9FF2943C84500CF70FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D54AA012943C84500CF70FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D54AA062943C84500CF70FB /* DentalCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DentalCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D54AA0A2943C84500CF70FB /* DentalCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareTests.swift; sourceTree = "<group>"; };
+		4D54AA102943C84500CF70FB /* DentalCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DentalCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D54AA142943C84500CF70FB /* DentalCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareUITests.swift; sourceTree = "<group>"; };
+		4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D54A9EA2943C84400CF70FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D54AA032943C84500CF70FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D54AA0D2943C84500CF70FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D54A9E42943C84400CF70FB = {
+			isa = PBXGroup;
+			children = (
+				4D54A9EF2943C84400CF70FB /* DentalCare */,
+				4D54AA092943C84500CF70FB /* DentalCareTests */,
+				4D54AA132943C84500CF70FB /* DentalCareUITests */,
+				4D54A9EE2943C84400CF70FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D54A9EE2943C84400CF70FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D54A9ED2943C84400CF70FB /* DentalCare.app */,
+				4D54AA062943C84500CF70FB /* DentalCareTests.xctest */,
+				4D54AA102943C84500CF70FB /* DentalCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D54A9EF2943C84400CF70FB /* DentalCare */ = {
+			isa = PBXGroup;
+			children = (
+				4D54A9F02943C84400CF70FB /* AppDelegate.swift */,
+				4D54A9F22943C84400CF70FB /* SceneDelegate.swift */,
+				4D54A9F42943C84400CF70FB /* ViewController.swift */,
+				4D54A9F62943C84400CF70FB /* Main.storyboard */,
+				4D54A9FC2943C84500CF70FB /* Assets.xcassets */,
+				4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */,
+				4D54AA012943C84500CF70FB /* Info.plist */,
+				4D54A9F92943C84400CF70FB /* DentalCare.xcdatamodeld */,
+			);
+			path = DentalCare;
+			sourceTree = "<group>";
+		};
+		4D54AA092943C84500CF70FB /* DentalCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D54AA0A2943C84500CF70FB /* DentalCareTests.swift */,
+			);
+			path = DentalCareTests;
+			sourceTree = "<group>";
+		};
+		4D54AA132943C84500CF70FB /* DentalCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D54AA142943C84500CF70FB /* DentalCareUITests.swift */,
+				4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */,
+			);
+			path = DentalCareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D54A9EC2943C84400CF70FB /* DentalCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D54AA1A2943C84500CF70FB /* Build configuration list for PBXNativeTarget "DentalCare" */;
+			buildPhases = (
+				4D54A9E92943C84400CF70FB /* Sources */,
+				4D54A9EA2943C84400CF70FB /* Frameworks */,
+				4D54A9EB2943C84400CF70FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DentalCare;
+			productName = DentalCare;
+			productReference = 4D54A9ED2943C84400CF70FB /* DentalCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D54AA052943C84500CF70FB /* DentalCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D54AA1D2943C84500CF70FB /* Build configuration list for PBXNativeTarget "DentalCareTests" */;
+			buildPhases = (
+				4D54AA022943C84500CF70FB /* Sources */,
+				4D54AA032943C84500CF70FB /* Frameworks */,
+				4D54AA042943C84500CF70FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D54AA082943C84500CF70FB /* PBXTargetDependency */,
+			);
+			name = DentalCareTests;
+			productName = DentalCareTests;
+			productReference = 4D54AA062943C84500CF70FB /* DentalCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D54AA0F2943C84500CF70FB /* DentalCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D54AA202943C84500CF70FB /* Build configuration list for PBXNativeTarget "DentalCareUITests" */;
+			buildPhases = (
+				4D54AA0C2943C84500CF70FB /* Sources */,
+				4D54AA0D2943C84500CF70FB /* Frameworks */,
+				4D54AA0E2943C84500CF70FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D54AA122943C84500CF70FB /* PBXTargetDependency */,
+			);
+			name = DentalCareUITests;
+			productName = DentalCareUITests;
+			productReference = 4D54AA102943C84500CF70FB /* DentalCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D54A9E52943C84400CF70FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4D54A9EC2943C84400CF70FB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4D54AA052943C84500CF70FB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4D54A9EC2943C84400CF70FB;
+					};
+					4D54AA0F2943C84500CF70FB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4D54A9EC2943C84400CF70FB;
+					};
+				};
+			};
+			buildConfigurationList = 4D54A9E82943C84400CF70FB /* Build configuration list for PBXProject "DentalCare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D54A9E42943C84400CF70FB;
+			productRefGroup = 4D54A9EE2943C84400CF70FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D54A9EC2943C84400CF70FB /* DentalCare */,
+				4D54AA052943C84500CF70FB /* DentalCareTests */,
+				4D54AA0F2943C84500CF70FB /* DentalCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D54A9EB2943C84400CF70FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D54AA002943C84500CF70FB /* LaunchScreen.storyboard in Resources */,
+				4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */,
+				4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D54AA042943C84500CF70FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D54AA0E2943C84500CF70FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D54A9E92943C84400CF70FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D54A9F52943C84400CF70FB /* ViewController.swift in Sources */,
+				4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */,
+				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
+				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D54AA022943C84500CF70FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D54AA0B2943C84500CF70FB /* DentalCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D54AA0C2943C84500CF70FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D54AA152943C84500CF70FB /* DentalCareUITests.swift in Sources */,
+				4D54AA172943C84500CF70FB /* DentalCareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D54AA082943C84500CF70FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D54A9EC2943C84400CF70FB /* DentalCare */;
+			targetProxy = 4D54AA072943C84500CF70FB /* PBXContainerItemProxy */;
+		};
+		4D54AA122943C84500CF70FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D54A9EC2943C84400CF70FB /* DentalCare */;
+			targetProxy = 4D54AA112943C84500CF70FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D54A9F62943C84400CF70FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D54A9F72943C84400CF70FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D54A9FF2943C84500CF70FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D54AA182943C84500CF70FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D54AA192943C84500CF70FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D54AA1B2943C84500CF70FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DentalCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ansal.DentalCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D54AA1C2943C84500CF70FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DentalCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ansal.DentalCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D54AA1E2943C84500CF70FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ansal.DentalCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DentalCare.app/DentalCare";
+			};
+			name = Debug;
+		};
+		4D54AA1F2943C84500CF70FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ansal.DentalCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DentalCare.app/DentalCare";
+			};
+			name = Release;
+		};
+		4D54AA212943C84500CF70FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ansal.DentalCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DentalCare;
+			};
+			name = Debug;
+		};
+		4D54AA222943C84500CF70FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ansal.DentalCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DentalCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D54A9E82943C84400CF70FB /* Build configuration list for PBXProject "DentalCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D54AA182943C84500CF70FB /* Debug */,
+				4D54AA192943C84500CF70FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D54AA1A2943C84500CF70FB /* Build configuration list for PBXNativeTarget "DentalCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D54AA1B2943C84500CF70FB /* Debug */,
+				4D54AA1C2943C84500CF70FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D54AA1D2943C84500CF70FB /* Build configuration list for PBXNativeTarget "DentalCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D54AA1E2943C84500CF70FB /* Debug */,
+				4D54AA1F2943C84500CF70FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D54AA202943C84500CF70FB /* Build configuration list for PBXNativeTarget "DentalCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D54AA212943C84500CF70FB /* Debug */,
+				4D54AA222943C84500CF70FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D54A9F92943C84400CF70FB /* DentalCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D54A9FA2943C84400CF70FB /* DentalCare.xcdatamodel */,
+			);
+			currentVersion = 4D54A9FA2943C84400CF70FB /* DentalCare.xcdatamodel */;
+			path = DentalCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D54A9E52943C84400CF70FB /* Project object */;
+}
