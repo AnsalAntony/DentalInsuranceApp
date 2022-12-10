@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D047B232943E55B002F7980 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B222943E55B002F7980 /* LoginViewController.swift */; };
+		4D047B2B2943FF2D002F7980 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B2A2943FF2D002F7980 /* UIView+Extensions.swift */; };
+		4D047B2D2943FF42002F7980 /* AlertView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B2C2943FF42002F7980 /* AlertView+Extensions.swift */; };
+		4D047B302944A83B002F7980 /* BottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B2F2944A83B002F7980 /* BottomButton.swift */; };
+		4D047B322944B092002F7980 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B312944B092002F7980 /* CardView.swift */; };
+		4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B352944BAD0002F7980 /* TextFieldHoldingView.swift */; };
+		4D047B392944CFDE002F7980 /* TPKeyboardAvoidingSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D047B382944CFDE002F7980 /* TPKeyboardAvoidingSwift */; };
+		4D047B3B2944EAF8002F7980 /* Animation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */; };
 		4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F02943C84400CF70FB /* AppDelegate.swift */; };
 		4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F22943C84400CF70FB /* SceneDelegate.swift */; };
-		4D54A9F52943C84400CF70FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F42943C84400CF70FB /* ViewController.swift */; };
 		4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9F62943C84400CF70FB /* Main.storyboard */; };
 		4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F92943C84400CF70FB /* DentalCare.xcdatamodeld */; };
 		4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9FC2943C84500CF70FB /* Assets.xcassets */; };
@@ -37,10 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D047B222943E55B002F7980 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4D047B2A2943FF2D002F7980 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4D047B2C2943FF42002F7980 /* AlertView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertView+Extensions.swift"; sourceTree = "<group>"; };
+		4D047B2F2944A83B002F7980 /* BottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButton.swift; sourceTree = "<group>"; };
+		4D047B312944B092002F7980 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4D047B352944BAD0002F7980 /* TextFieldHoldingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldHoldingView.swift; sourceTree = "<group>"; };
+		4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+Extensions.swift"; sourceTree = "<group>"; };
 		4D54A9ED2943C84400CF70FB /* DentalCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentalCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D54A9F02943C84400CF70FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D54A9F22943C84400CF70FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D54A9F42943C84400CF70FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D54A9F72943C84400CF70FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D54A9FA2943C84400CF70FB /* DentalCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DentalCare.xcdatamodel; sourceTree = "<group>"; };
 		4D54A9FC2943C84500CF70FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D047B392944CFDE002F7980 /* TPKeyboardAvoidingSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D047B1A2943E3ED002F7980 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D047B1B2943E40E002F7980 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D047B1C2943E441002F7980 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D047B222943E55B002F7980 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D047B1D2943E456002F7980 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		4D047B1E2943E46A002F7980 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4D54A9F62943C84400CF70FB /* Main.storyboard */,
+				4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4D047B1F2943E493002F7980 /* Utilities and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D047B2A2943FF2D002F7980 /* UIView+Extensions.swift */,
+				4D047B2C2943FF42002F7980 /* AlertView+Extensions.swift */,
+				4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */,
+			);
+			path = "Utilities and Extensions";
+			sourceTree = "<group>";
+		};
+		4D047B202943E4AF002F7980 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4D047B212943E4C1002F7980 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4D54A9F02943C84400CF70FB /* AppDelegate.swift */,
+				4D54A9F22943C84400CF70FB /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4D047B242943F7B9002F7980 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D047B342944BA65002F7980 /* TextFieldHoldingView */,
+				4D047B2E2944A53E002F7980 /* BottomButton  */,
+				4D047B252943F7D3002F7980 /* CardView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D047B252943F7D3002F7980 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				4D047B312944B092002F7980 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		4D047B2E2944A53E002F7980 /* BottomButton  */ = {
+			isa = PBXGroup;
+			children = (
+				4D047B2F2944A83B002F7980 /* BottomButton.swift */,
+			);
+			path = "BottomButton ";
+			sourceTree = "<group>";
+		};
+		4D047B342944BA65002F7980 /* TextFieldHoldingView */ = {
+			isa = PBXGroup;
+			children = (
+				4D047B352944BAD0002F7980 /* TextFieldHoldingView.swift */,
+			);
+			path = TextFieldHoldingView;
+			sourceTree = "<group>";
+		};
 		4D54A9E42943C84400CF70FB = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +213,16 @@
 		4D54A9EF2943C84400CF70FB /* DentalCare */ = {
 			isa = PBXGroup;
 			children = (
-				4D54A9F02943C84400CF70FB /* AppDelegate.swift */,
-				4D54A9F22943C84400CF70FB /* SceneDelegate.swift */,
-				4D54A9F42943C84400CF70FB /* ViewController.swift */,
-				4D54A9F62943C84400CF70FB /* Main.storyboard */,
+				4D047B1A2943E3ED002F7980 /* Model */,
+				4D047B1B2943E40E002F7980 /* ViewModels */,
+				4D047B1C2943E441002F7980 /* Controllers */,
+				4D047B1D2943E456002F7980 /* CustomCells */,
+				4D047B1E2943E46A002F7980 /* Storyboards */,
+				4D047B1F2943E493002F7980 /* Utilities and Extensions */,
+				4D047B242943F7B9002F7980 /* Components */,
+				4D047B202943E4AF002F7980 /* Constants */,
+				4D047B212943E4C1002F7980 /* Common */,
 				4D54A9FC2943C84500CF70FB /* Assets.xcassets */,
-				4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */,
 				4D54AA012943C84500CF70FB /* Info.plist */,
 				4D54A9F92943C84400CF70FB /* DentalCare.xcdatamodeld */,
 			);
@@ -146,6 +262,9 @@
 			dependencies = (
 			);
 			name = DentalCare;
+			packageProductDependencies = (
+				4D047B382944CFDE002F7980 /* TPKeyboardAvoidingSwift */,
+			);
 			productName = DentalCare;
 			productReference = 4D54A9ED2943C84400CF70FB /* DentalCare.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +337,9 @@
 				Base,
 			);
 			mainGroup = 4D54A9E42943C84400CF70FB;
+			packageReferences = (
+				4D047B372944CFDE002F7980 /* XCRemoteSwiftPackageReference "TPKeyboardAvoidingSwift" */,
+			);
 			productRefGroup = 4D54A9EE2943C84400CF70FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,10 +383,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D54A9F52943C84400CF70FB /* ViewController.swift in Sources */,
+				4D047B3B2944EAF8002F7980 /* Animation+Extensions.swift in Sources */,
+				4D047B2B2943FF2D002F7980 /* UIView+Extensions.swift in Sources */,
+				4D047B322944B092002F7980 /* CardView.swift in Sources */,
+				4D047B232943E55B002F7980 /* LoginViewController.swift in Sources */,
 				4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */,
 				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
+				4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
+				4D047B302944A83B002F7980 /* BottomButton.swift in Sources */,
+				4D047B2D2943FF42002F7980 /* AlertView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +576,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,7 +589,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,8 +605,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +618,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -602,6 +734,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D047B372944CFDE002F7980 /* XCRemoteSwiftPackageReference "TPKeyboardAvoidingSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple-avadhesh/TPKeyboardAvoidingSwift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D047B382944CFDE002F7980 /* TPKeyboardAvoidingSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D047B372944CFDE002F7980 /* XCRemoteSwiftPackageReference "TPKeyboardAvoidingSwift" */;
+			productName = TPKeyboardAvoidingSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4D54A9F92943C84400CF70FB /* DentalCare.xcdatamodeld */ = {

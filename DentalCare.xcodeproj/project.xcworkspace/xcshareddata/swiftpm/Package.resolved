@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TPKeyboardAvoidingSwift",
+        "repositoryURL": "https://github.com/apple-avadhesh/TPKeyboardAvoidingSwift.git",
+        "state": {
+          "branch": "master",
+          "revision": "285ff05f3c62ed3b9d137afc169b34599de1a147",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
