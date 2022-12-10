@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aTE-k0-cs6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="DentalCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBackground" translatesAutoresizingMaskIntoConstraints="NO" id="7Mh-vF-5DL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KsF-bl-nuU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dental Care" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-u3-24X">
+                                        <rect key="frame" x="30" y="100" width="354" height="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A child with a smile will go the extra mile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLV-TE-MN9">
+                                        <rect key="frame" x="30" y="141" width="354" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RL0-sp-jde" customClass="TPKeyboardAvoidingScrollView" customModule="TPKeyboardAvoidingSwift">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-NY-BQu">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayi-TJ-CKj" customClass="CardView" customModule="DentalCare" customModuleProvider="target">
+                                                        <rect key="frame" x="25" y="290.5" width="364" height="315"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAp-fd-jmo" customClass="TextFieldHoldingView" customModule="DentalCare" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="30" width="324" height="50"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Personal number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXt-as-7Ph">
+                                                                        <rect key="frame" x="7" y="2" width="315" height="46"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                    </textField>
+                                                                </subviews>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="TXt-as-7Ph" secondAttribute="bottom" constant="2" id="Dec-2y-ODe"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="TXt-as-7Ph" secondAttribute="trailing" constant="2" id="G1k-89-jxf"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="Xwf-94-7cx"/>
+                                                                    <constraint firstItem="TXt-as-7Ph" firstAttribute="top" secondItem="hAp-fd-jmo" secondAttribute="top" constant="2" id="kX3-ld-TEx"/>
+                                                                    <constraint firstItem="TXt-as-7Ph" firstAttribute="leading" secondItem="hAp-fd-jmo" secondAttribute="leading" constant="7" id="qSL-Wm-BjN"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fja-us-WTH" customClass="TextFieldHoldingView" customModule="DentalCare" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="95" width="324" height="50"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Syz-7c-Z5O">
+                                                                        <rect key="frame" x="7" y="2" width="315" height="46"/>
+                                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                </subviews>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="Syz-7c-Z5O" secondAttribute="bottom" constant="2" id="1EB-93-odg"/>
+                                                                    <constraint firstItem="Syz-7c-Z5O" firstAttribute="top" secondItem="Fja-us-WTH" secondAttribute="top" constant="2" id="EUs-0I-xMg"/>
+                                                                    <constraint firstItem="Syz-7c-Z5O" firstAttribute="leading" secondItem="Fja-us-WTH" secondAttribute="leading" constant="7" id="IU5-0A-8g7"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="Syz-7c-Z5O" secondAttribute="trailing" constant="2" id="MQx-Fa-a2O"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="yRX-sI-LTh"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvc-wz-TIz" customClass="BottomButton" customModule="DentalCare" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="170" width="324" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="W5D-ky-ZhB"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="Login">
+                                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="loginClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hpa-1q-G8R"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhe-Lt-OPS" customClass="BottomButton" customModule="DentalCare" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="235" width="324" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="OLc-EK-Qni"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="Register">
+                                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="registerClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4AM-Cd-BBT"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Fja-us-WTH" secondAttribute="trailing" constant="20" id="Ewh-oC-jOX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="nhe-Lt-OPS" secondAttribute="trailing" constant="20" id="Pad-tu-nn2"/>
+                                                            <constraint firstItem="hAp-fd-jmo" firstAttribute="top" secondItem="Ayi-TJ-CKj" secondAttribute="top" constant="30" id="VEy-lI-bNI"/>
+                                                            <constraint firstAttribute="trailing" secondItem="hAp-fd-jmo" secondAttribute="trailing" constant="20" id="ZaF-Mr-Dv1"/>
+                                                            <constraint firstAttribute="bottom" secondItem="nhe-Lt-OPS" secondAttribute="bottom" constant="30" id="bTE-rR-aWl"/>
+                                                            <constraint firstAttribute="trailing" secondItem="nvc-wz-TIz" secondAttribute="trailing" constant="20" id="bv7-F5-iLC"/>
+                                                            <constraint firstItem="Fja-us-WTH" firstAttribute="leading" secondItem="Ayi-TJ-CKj" secondAttribute="leading" constant="20" id="dQM-Du-GiV"/>
+                                                            <constraint firstItem="Fja-us-WTH" firstAttribute="top" secondItem="hAp-fd-jmo" secondAttribute="bottom" constant="15" id="h77-8d-hrH"/>
+                                                            <constraint firstItem="nhe-Lt-OPS" firstAttribute="top" secondItem="nvc-wz-TIz" secondAttribute="bottom" constant="15" id="mds-3x-2VE"/>
+                                                            <constraint firstItem="nvc-wz-TIz" firstAttribute="top" secondItem="Fja-us-WTH" secondAttribute="bottom" constant="25" id="n9W-2h-qo7"/>
+                                                            <constraint firstItem="nhe-Lt-OPS" firstAttribute="leading" secondItem="Ayi-TJ-CKj" secondAttribute="leading" constant="20" id="prr-M3-DLp"/>
+                                                            <constraint firstItem="nvc-wz-TIz" firstAttribute="leading" secondItem="Ayi-TJ-CKj" secondAttribute="leading" constant="20" id="rnH-vw-56D"/>
+                                                            <constraint firstItem="hAp-fd-jmo" firstAttribute="leading" secondItem="Ayi-TJ-CKj" secondAttribute="leading" constant="20" id="zYc-fw-gz7"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="9"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="bgcolor">
+                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Ayi-TJ-CKj" firstAttribute="centerX" secondItem="7lf-NY-BQu" secondAttribute="centerX" id="CTj-Zv-hpu"/>
+                                                    <constraint firstItem="Ayi-TJ-CKj" firstAttribute="leading" secondItem="7lf-NY-BQu" secondAttribute="leading" constant="25" id="Duy-Df-TI3"/>
+                                                    <constraint firstItem="Ayi-TJ-CKj" firstAttribute="centerY" secondItem="7lf-NY-BQu" secondAttribute="centerY" id="SA0-W1-ZVq"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Ayi-TJ-CKj" secondAttribute="trailing" constant="25" id="aVy-sq-pen"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="7lf-NY-BQu" secondAttribute="bottom" id="5i6-F0-h6y"/>
+                                            <constraint firstItem="7lf-NY-BQu" firstAttribute="width" secondItem="RL0-sp-jde" secondAttribute="width" id="7d5-dl-hGc"/>
+                                            <constraint firstItem="7lf-NY-BQu" firstAttribute="height" secondItem="RL0-sp-jde" secondAttribute="height" multiplier="1.01228" priority="250" constant="-11.000000000000114" id="LHh-I0-7dy"/>
+                                            <constraint firstItem="7lf-NY-BQu" firstAttribute="leading" secondItem="RL0-sp-jde" secondAttribute="leading" id="LSo-78-qqu"/>
+                                            <constraint firstAttribute="trailing" secondItem="7lf-NY-BQu" secondAttribute="trailing" id="ODy-ki-E1Y"/>
+                                            <constraint firstItem="7lf-NY-BQu" firstAttribute="top" secondItem="RL0-sp-jde" secondAttribute="top" id="tbB-cR-ewV"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.15001552152317882" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="RL0-sp-jde" secondAttribute="trailing" id="3Au-nC-Ods"/>
+                                    <constraint firstAttribute="trailing" secondItem="rLV-TE-MN9" secondAttribute="trailing" constant="30" id="9UP-pL-mUn"/>
+                                    <constraint firstItem="RL0-sp-jde" firstAttribute="top" secondItem="KsF-bl-nuU" secondAttribute="top" id="B0I-k5-52Z"/>
+                                    <constraint firstItem="rLV-TE-MN9" firstAttribute="top" secondItem="VLt-u3-24X" secondAttribute="bottom" constant="5" id="BC4-9M-zbr"/>
+                                    <constraint firstItem="VLt-u3-24X" firstAttribute="top" secondItem="KsF-bl-nuU" secondAttribute="top" constant="100" id="Bpi-J0-4QU"/>
+                                    <constraint firstAttribute="trailing" secondItem="VLt-u3-24X" secondAttribute="trailing" constant="30" id="Lrs-ND-G5O"/>
+                                    <constraint firstItem="rLV-TE-MN9" firstAttribute="leading" secondItem="KsF-bl-nuU" secondAttribute="leading" constant="30" id="MMM-Q4-QKC"/>
+                                    <constraint firstItem="RL0-sp-jde" firstAttribute="leading" secondItem="KsF-bl-nuU" secondAttribute="leading" id="blV-9d-IeG"/>
+                                    <constraint firstItem="VLt-u3-24X" firstAttribute="leading" secondItem="KsF-bl-nuU" secondAttribute="leading" constant="30" id="fBk-9C-Tct"/>
+                                    <constraint firstAttribute="bottom" secondItem="RL0-sp-jde" secondAttribute="bottom" id="mSl-pd-PEt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KsF-bl-nuU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="201-eN-wD5"/>
+                            <constraint firstAttribute="bottom" secondItem="7Mh-vF-5DL" secondAttribute="bottom" id="Lb4-7S-LlQ"/>
+                            <constraint firstAttribute="bottom" secondItem="KsF-bl-nuU" secondAttribute="bottom" id="M7r-Lg-4Et"/>
+                            <constraint firstItem="7Mh-vF-5DL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QlC-cW-voT"/>
+                            <constraint firstItem="7Mh-vF-5DL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="U0v-U0-9d8"/>
+                            <constraint firstItem="7Mh-vF-5DL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dAV-0p-FfK"/>
+                            <constraint firstItem="KsF-bl-nuU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tNn-tW-WC8"/>
+                            <constraint firstItem="KsF-bl-nuU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uOX-yV-LES"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WZN-dj-fXZ"/>
+                    <connections>
+                        <outlet property="cardView" destination="Ayi-TJ-CKj" id="ZTb-dN-2iq"/>
+                        <outlet property="labelDescription" destination="rLV-TE-MN9" id="sWz-hN-R1B"/>
+                        <outlet property="labelTitle" destination="VLt-u3-24X" id="puQ-3Y-SM0"/>
+                        <outlet property="textName" destination="Syz-7c-Z5O" id="buD-lg-ypt"/>
+                        <outlet property="textPersonalNumber" destination="TXt-as-7Ph" id="i0y-GJ-ApZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="-265.17857142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="unc-jJ-ck5">
+            <objects>
+                <navigationController id="aTE-k0-cs6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vrp-J6-vw9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NI2-OP-9WV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ru-vb-dyT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-759" y="-264"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="nhe-Lt-OPS">
+            <size key="intrinsicContentSize" width="92.5" height="34.5"/>
+        </designable>
+        <designable name="nvc-wz-TIz">
+            <size key="intrinsicContentSize" width="69.5" height="34.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="AppBackground" width="368" height="654"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
