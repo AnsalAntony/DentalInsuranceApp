@@ -14,7 +14,14 @@ struct Constants {
     static let childDetails = "Child Details"
     static let parentDetails = "Parent Details"
     static let bankDetails = "Bank Details"
+    static let dentalCare = "Dental Care"
     static let cardViewTopConstraint: CGFloat = 100
     static let cardViewBottomConstraint: CGFloat = 50
+    
+    struct nibId {
+       static let insuranceTableViewCell =  "InsuranceTableViewCell"
+       
+        
+    }
 
 }

@@ -33,6 +33,9 @@
 		4DAF3EC32946396900A54D5F /* ChildDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC22946396900A54D5F /* ChildDetail.storyboard */; };
 		4DAF3EC52946398700A54D5F /* ParentDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC42946398700A54D5F /* ParentDetail.storyboard */; };
 		4DAF3EC72946399F00A54D5F /* BankDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC62946399F00A54D5F /* BankDetail.storyboard */; };
+		4DE6B11929464B100059357A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6B11829464B100059357A /* HomeViewController.swift */; };
+		4DE6B11C294654610059357A /* InsuranceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6B11A294654610059357A /* InsuranceTableViewCell.swift */; };
+		4DE6B11D294654610059357A /* InsuranceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6B11B294654610059357A /* InsuranceTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		4DAF3EC22946396900A54D5F /* ChildDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChildDetail.storyboard; sourceTree = "<group>"; };
 		4DAF3EC42946398700A54D5F /* ParentDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParentDetail.storyboard; sourceTree = "<group>"; };
 		4DAF3EC62946399F00A54D5F /* BankDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BankDetail.storyboard; sourceTree = "<group>"; };
+		4DE6B11829464B100059357A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4DE6B11A294654610059357A /* InsuranceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceTableViewCell.swift; sourceTree = "<group>"; };
+		4DE6B11B294654610059357A /* InsuranceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,7 @@
 				4D047B222943E55B002F7980 /* LoginViewController.swift */,
 				4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */,
 				4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */,
+				4DE6B11829464B100059357A /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,6 +145,8 @@
 		4D047B1D2943E456002F7980 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				4DE6B11A294654610059357A /* InsuranceTableViewCell.swift */,
+				4DE6B11B294654610059357A /* InsuranceTableViewCell.xib */,
 			);
 			path = CustomCells;
 			sourceTree = "<group>";
@@ -397,6 +406,7 @@
 				4D54AA002943C84500CF70FB /* LaunchScreen.storyboard in Resources */,
 				4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */,
 				4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */,
+				4DE6B11D294654610059357A /* InsuranceTableViewCell.xib in Resources */,
 				4DAF3EC72946399F00A54D5F /* BankDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +443,8 @@
 				4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */,
 				4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
+				4DE6B11929464B100059357A /* HomeViewController.swift in Sources */,
+				4DE6B11C294654610059357A /* InsuranceTableViewCell.swift in Sources */,
 				4D73B31929453E030097795F /* CheckBox.swift in Sources */,
 				4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */,
 				4D047B302944A83B002F7980 /* BottomButton.swift in Sources */,
