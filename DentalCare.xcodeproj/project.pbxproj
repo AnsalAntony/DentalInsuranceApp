@@ -27,6 +27,8 @@
 		4D54AA172943C84500CF70FB /* DentalCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */; };
 		4D73B31729453DA40097795F /* CheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D73B31629453DA40097795F /* CheckBox.xib */; };
 		4D73B31929453E030097795F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73B31829453E030097795F /* CheckBox.swift */; };
+		4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBA2945EC9F00A54D5F /* Constants.swift */; };
+		4DAF3EBF2945FC4400A54D5F /* ParentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D73B31629453DA40097795F /* CheckBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBox.xib; sourceTree = "<group>"; };
 		4D73B31829453E030097795F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		4DAF3EBA2945EC9F00A54D5F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 			children = (
 				4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */,
 				4D047B222943E55B002F7980 /* LoginViewController.swift */,
+				4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 		4D047B202943E4AF002F7980 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				4DAF3EBA2945EC9F00A54D5F /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -404,10 +410,12 @@
 				4D047B3B2944EAF8002F7980 /* Animation+Extensions.swift in Sources */,
 				4D047B2B2943FF2D002F7980 /* UIView+Extensions.swift in Sources */,
 				4D047B322944B092002F7980 /* CardView.swift in Sources */,
+				4DAF3EBF2945FC4400A54D5F /* ParentDetailsViewController.swift in Sources */,
 				4D047B232943E55B002F7980 /* LoginViewController.swift in Sources */,
 				4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */,
 				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
 				4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */,
+				4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
 				4D73B31929453E030097795F /* CheckBox.swift in Sources */,
 				4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */,

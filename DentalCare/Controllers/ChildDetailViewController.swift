@@ -9,6 +9,8 @@ import UIKit
 
 class ChildDetailViewController: UIViewController {
     
+    @IBOutlet weak var cardViewBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var cardViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var postalTextField: UITextField!
     @IBOutlet weak var streetTextField: UITextField!
@@ -34,7 +36,7 @@ class ChildDetailViewController: UIViewController {
         super.viewDidAppear(animated)
         cardView.fadeIn()
         cardView.isHidden = false
-       
+        
     }
     private func setupUi(){
         cardView.fadeOut()
@@ -42,6 +44,10 @@ class ChildDetailViewController: UIViewController {
         maleCheckBox.checkSelectionBtn.addTarget(self, action: #selector(maleButtonClicked), for: .touchUpInside)
         femailCheckBox.checkSelectionBtn.addTarget(self, action: #selector(femaileButtonClicked), for: .touchUpInside)
         otherGenderCheckBox.checkSelectionBtn.addTarget(self, action: #selector(otherGenderButtonClicked), for: .touchUpInside)
+        if(!UIDevice.current.hasNotch){
+            cardViewTopConstraint.constant = Constants.cardViewTopConstraint
+            cardViewBottomConstraint.constant = Constants.cardViewBottomConstraint
+        }
     }
     
     private func setupNavigationBar(){
@@ -55,9 +61,10 @@ class ChildDetailViewController: UIViewController {
         }
         
         UINavigationBar.appearance().tintColor = .white
-        navigationItem.title = "Child Details"
-        
+        navigationItem.title = Constants.childDetails
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
+    
     @objc func maleButtonClicked(sender: UIButton) {
         maleCheckBox.isChecked = !maleCheckBox.isChecked
         
@@ -70,7 +77,7 @@ class ChildDetailViewController: UIViewController {
         otherGenderCheckBox.isChecked = !otherGenderCheckBox.isChecked
         
     }
-  
+    
     @IBAction func parentDetailClicked(_ sender: Any) {
     }
     

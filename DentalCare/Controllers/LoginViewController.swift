@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
         labelTitle.fadeOut()
         labelDescription.fadeOut()
         cardView.fadeOut()
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
     override func viewDidAppear(_ animated: Bool) {
