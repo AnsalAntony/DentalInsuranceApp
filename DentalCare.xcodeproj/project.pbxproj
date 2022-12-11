@@ -29,6 +29,10 @@
 		4D73B31929453E030097795F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73B31829453E030097795F /* CheckBox.swift */; };
 		4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBA2945EC9F00A54D5F /* Constants.swift */; };
 		4DAF3EBF2945FC4400A54D5F /* ParentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */; };
+		4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */; };
+		4DAF3EC32946396900A54D5F /* ChildDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC22946396900A54D5F /* ChildDetail.storyboard */; };
+		4DAF3EC52946398700A54D5F /* ParentDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC42946398700A54D5F /* ParentDetail.storyboard */; };
+		4DAF3EC72946399F00A54D5F /* BankDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC62946399F00A54D5F /* BankDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		4D73B31829453E030097795F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		4DAF3EBA2945EC9F00A54D5F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailsViewController.swift; sourceTree = "<group>"; };
+		4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewController.swift; sourceTree = "<group>"; };
+		4DAF3EC22946396900A54D5F /* ChildDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChildDetail.storyboard; sourceTree = "<group>"; };
+		4DAF3EC42946398700A54D5F /* ParentDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParentDetail.storyboard; sourceTree = "<group>"; };
+		4DAF3EC62946399F00A54D5F /* BankDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BankDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */,
 				4D047B222943E55B002F7980 /* LoginViewController.swift */,
 				4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */,
+				4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				4D54A9F62943C84400CF70FB /* Main.storyboard */,
+				4DAF3EC22946396900A54D5F /* ChildDetail.storyboard */,
+				4DAF3EC42946398700A54D5F /* ParentDetail.storyboard */,
+				4DAF3EC62946399F00A54D5F /* BankDetail.storyboard */,
 				4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -380,9 +392,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D73B31729453DA40097795F /* CheckBox.xib in Resources */,
+				4DAF3EC52946398700A54D5F /* ParentDetail.storyboard in Resources */,
+				4DAF3EC32946396900A54D5F /* ChildDetail.storyboard in Resources */,
 				4D54AA002943C84500CF70FB /* LaunchScreen.storyboard in Resources */,
 				4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */,
 				4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */,
+				4DAF3EC72946399F00A54D5F /* BankDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +431,7 @@
 				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
 				4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */,
 				4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */,
+				4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
 				4D73B31929453E030097795F /* CheckBox.swift in Sources */,
 				4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */,

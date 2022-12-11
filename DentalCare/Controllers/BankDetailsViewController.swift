@@ -9,21 +9,23 @@ import UIKit
 
 class BankDetailsViewController: UIViewController {
 
+    @IBOutlet weak var bankIdTextField: UITextField!
+    @IBOutlet weak var cardView: CardView!
+    @IBOutlet weak var bankNameTextField: UITextField!
+    @IBOutlet weak var accountTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        cardView.fadeOut()
+        cardView.isHidden = true // displaying animation
+        navigationItem.title = Constants.bankDetails
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        cardView.fadeIn()
+        cardView.isHidden = false
+        
     }
-    */
 
 }
