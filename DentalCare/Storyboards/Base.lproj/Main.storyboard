@@ -47,8 +47,9 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAp-fd-jmo" customClass="TextFieldHoldingView" customModule="DentalCare" customModuleProvider="target">
                                                                 <rect key="frame" x="20" y="30" width="324" height="50"/>
                                                                 <subviews>
-                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Personal number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXt-as-7Ph">
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Personal number *" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXt-as-7Ph">
                                                                         <rect key="frame" x="7" y="2" width="315" height="46"/>
+                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                     </textField>
@@ -65,8 +66,9 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fja-us-WTH" customClass="TextFieldHoldingView" customModule="DentalCare" customModuleProvider="target">
                                                                 <rect key="frame" x="20" y="95" width="324" height="50"/>
                                                                 <subviews>
-                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Syz-7c-Z5O">
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name *" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Syz-7c-Z5O">
                                                                         <rect key="frame" x="7" y="2" width="315" height="46"/>
+                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                                         <textInputTraits key="textInputTraits"/>
                                                                     </textField>
