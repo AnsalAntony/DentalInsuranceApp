@@ -15,6 +15,7 @@
 		4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B352944BAD0002F7980 /* TextFieldHoldingView.swift */; };
 		4D047B392944CFDE002F7980 /* TPKeyboardAvoidingSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D047B382944CFDE002F7980 /* TPKeyboardAvoidingSwift */; };
 		4D047B3B2944EAF8002F7980 /* Animation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */; };
+		4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */; };
 		4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F02943C84400CF70FB /* AppDelegate.swift */; };
 		4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F22943C84400CF70FB /* SceneDelegate.swift */; };
 		4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9F62943C84400CF70FB /* Main.storyboard */; };
@@ -24,6 +25,8 @@
 		4D54AA0B2943C84500CF70FB /* DentalCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA0A2943C84500CF70FB /* DentalCareTests.swift */; };
 		4D54AA152943C84500CF70FB /* DentalCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA142943C84500CF70FB /* DentalCareUITests.swift */; };
 		4D54AA172943C84500CF70FB /* DentalCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */; };
+		4D73B31729453DA40097795F /* CheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D73B31629453DA40097795F /* CheckBox.xib */; };
+		4D73B31929453E030097795F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73B31829453E030097795F /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		4D047B312944B092002F7980 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4D047B352944BAD0002F7980 /* TextFieldHoldingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldHoldingView.swift; sourceTree = "<group>"; };
 		4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+Extensions.swift"; sourceTree = "<group>"; };
+		4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildDetailViewController.swift; sourceTree = "<group>"; };
 		4D54A9ED2943C84400CF70FB /* DentalCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentalCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D54A9F02943C84400CF70FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D54A9F22943C84400CF70FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		4D54AA102943C84500CF70FB /* DentalCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DentalCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D54AA142943C84500CF70FB /* DentalCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareUITests.swift; sourceTree = "<group>"; };
 		4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D73B31629453DA40097795F /* CheckBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBox.xib; sourceTree = "<group>"; };
+		4D73B31829453E030097795F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		4D047B1C2943E441002F7980 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */,
 				4D047B222943E55B002F7980 /* LoginViewController.swift */,
 			);
 			path = Controllers;
@@ -159,6 +166,7 @@
 		4D047B242943F7B9002F7980 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4D73B31529453D880097795F /* CheckBox */,
 				4D047B342944BA65002F7980 /* TextFieldHoldingView */,
 				4D047B2E2944A53E002F7980 /* BottomButton  */,
 				4D047B252943F7D3002F7980 /* CardView */,
@@ -244,6 +252,15 @@
 				4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */,
 			);
 			path = DentalCareUITests;
+			sourceTree = "<group>";
+		};
+		4D73B31529453D880097795F /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				4D73B31629453DA40097795F /* CheckBox.xib */,
+				4D73B31829453E030097795F /* CheckBox.swift */,
+			);
+			path = CheckBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D73B31729453DA40097795F /* CheckBox.xib in Resources */,
 				4D54AA002943C84500CF70FB /* LaunchScreen.storyboard in Resources */,
 				4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */,
 				4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */,
@@ -391,6 +409,8 @@
 				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
 				4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
+				4D73B31929453E030097795F /* CheckBox.swift in Sources */,
+				4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */,
 				4D047B302944A83B002F7980 /* BottomButton.swift in Sources */,
 				4D047B2D2943FF42002F7980 /* AlertView+Extensions.swift in Sources */,
 			);
