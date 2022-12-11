@@ -16,6 +16,7 @@
 		4D047B392944CFDE002F7980 /* TPKeyboardAvoidingSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D047B382944CFDE002F7980 /* TPKeyboardAvoidingSwift */; };
 		4D047B3B2944EAF8002F7980 /* Animation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */; };
 		4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */; };
+		4D1190042946884D0058A527 /* InsuranceClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1190032946884D0058A527 /* InsuranceClaimViewController.swift */; };
 		4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F02943C84400CF70FB /* AppDelegate.swift */; };
 		4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54A9F22943C84400CF70FB /* SceneDelegate.swift */; };
 		4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D54A9F62943C84400CF70FB /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		4DE6B11929464B100059357A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6B11829464B100059357A /* HomeViewController.swift */; };
 		4DE6B11C294654610059357A /* InsuranceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6B11A294654610059357A /* InsuranceTableViewCell.swift */; };
 		4DE6B11D294654610059357A /* InsuranceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6B11B294654610059357A /* InsuranceTableViewCell.xib */; };
+		4DE6B11F29466BC80059357A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6B11E29466BC80059357A /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		4D047B352944BAD0002F7980 /* TextFieldHoldingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldHoldingView.swift; sourceTree = "<group>"; };
 		4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+Extensions.swift"; sourceTree = "<group>"; };
 		4D047B3E29451F5B002F7980 /* ChildDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildDetailViewController.swift; sourceTree = "<group>"; };
+		4D1190032946884D0058A527 /* InsuranceClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceClaimViewController.swift; sourceTree = "<group>"; };
 		4D54A9ED2943C84400CF70FB /* DentalCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentalCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D54A9F02943C84400CF70FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D54A9F22943C84400CF70FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 		4DE6B11829464B100059357A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4DE6B11A294654610059357A /* InsuranceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceTableViewCell.swift; sourceTree = "<group>"; };
 		4DE6B11B294654610059357A /* InsuranceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceTableViewCell.xib; sourceTree = "<group>"; };
+		4DE6B11E29466BC80059357A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 				4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */,
 				4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */,
 				4DE6B11829464B100059357A /* HomeViewController.swift */,
+				4D1190032946884D0058A527 /* InsuranceClaimViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				4DAF3EC22946396900A54D5F /* ChildDetail.storyboard */,
 				4DAF3EC42946398700A54D5F /* ParentDetail.storyboard */,
 				4DAF3EC62946399F00A54D5F /* BankDetail.storyboard */,
+				4DE6B11E29466BC80059357A /* Home.storyboard */,
 				4D54A9FE2943C84500CF70FB /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -403,6 +409,7 @@
 				4D73B31729453DA40097795F /* CheckBox.xib in Resources */,
 				4DAF3EC52946398700A54D5F /* ParentDetail.storyboard in Resources */,
 				4DAF3EC32946396900A54D5F /* ChildDetail.storyboard in Resources */,
+				4DE6B11F29466BC80059357A /* Home.storyboard in Resources */,
 				4D54AA002943C84500CF70FB /* LaunchScreen.storyboard in Resources */,
 				4D54A9FD2943C84500CF70FB /* Assets.xcassets in Resources */,
 				4D54A9F82943C84400CF70FB /* Main.storyboard in Resources */,
@@ -440,6 +447,7 @@
 				4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */,
 				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
 				4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */,
+				4D1190042946884D0058A527 /* InsuranceClaimViewController.swift in Sources */,
 				4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */,
 				4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
