@@ -14,6 +14,11 @@ class BankDetailsViewController: UIViewController {
     @IBOutlet weak var bankNameTextField: UITextField!
     @IBOutlet weak var accountTextField: UITextField!
     
+    static func make() -> BankDetailsViewController {
+        let viewController = UIStoryboard(name: "BankDetail", bundle: nil).instantiateViewController(withIdentifier: Constants.storyboardId.bankDetailsViewController) as! BankDetailsViewController
+        return viewController
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,4 +33,9 @@ class BankDetailsViewController: UIViewController {
         
     }
 
+    @IBAction func saveClicked(_ sender: Any) {
+        let homeViewController = HomeViewController.make()
+        guard let navigationController = navigationController else { return }
+        navigationController.setViewControllers([homeViewController], animated: false)
+    }
 }

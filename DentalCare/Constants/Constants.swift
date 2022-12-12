@@ -13,7 +13,13 @@ struct Constants {
     
     static let chieldPersonalErr = "Please enter child personal number"
     static let claimRegisteredSuccessfully = "claim registered successfully. it will take 5 working days to approve "
-    static let chieldNameErr = "Please enter child name"
+    static let chieldNameErr = "Please enter your child name"
+    static let chieldAgeErr = "Please enter your child age"
+    static let chieldgenderErr = "Please enter your child gender"
+    static let chieldHouseErr = "Please enter house name"
+    static let chieldStreetErr = "Please enter street name"
+    static let chieldPostErr = "Enter postal code"
+    static let chieldCityErr = "Enter city code"
     static let childDetails = "Child Details"
     static let parentDetails = "Parent Details"
     static let bankDetails = "Bank Details"
@@ -28,6 +34,9 @@ struct Constants {
 
         static let homeViewController = "HomeViewController"
         static let insuranceClaimViewController = "InsuranceClaimViewController"
+        static let childDetailViewController = "ChildDetailViewController"
+        static let parentDetailsViewController = "ParentDetailsViewController"
+        static let bankDetailsViewController = "BankDetailsViewController"
         
     }
 
