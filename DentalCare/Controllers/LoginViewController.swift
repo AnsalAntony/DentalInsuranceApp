@@ -65,6 +65,7 @@ class LoginViewController: UIViewController {
         }else{
             // check chield personal number and name in the data base go inside
             // if chiled not in the data base show the errro message "chield not regesterd please regester your chield details"
+            // use local data base or we can use api
             
             let homeViewController = HomeViewController.make()
             guard let navigationController = navigationController else { return }
