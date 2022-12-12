@@ -26,6 +26,12 @@ class ParentDetailsViewController: UIViewController {
     @IBOutlet weak var cardViewTopConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var cardViewBottomConstraint: NSLayoutConstraint!
+    
+    static func make() -> ParentDetailsViewController {
+        let viewController = UIStoryboard(name: "ParentDetail", bundle: nil).instantiateViewController(withIdentifier: Constants.storyboardId.parentDetailsViewController) as! ParentDetailsViewController
+        return viewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -74,7 +80,8 @@ class ParentDetailsViewController: UIViewController {
     
     
     @IBAction func saveClicked(_ sender: Any) {
-        
+        let viewController = BankDetailsViewController.make()
+        navigationController?.pushViewController(viewController, animated: true)
     }
     
     

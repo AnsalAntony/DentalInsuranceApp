@@ -22,16 +22,21 @@ class ChildDetailViewController: UIViewController {
     @IBOutlet weak var personalNumberTextField: UITextField!
     @IBOutlet weak var cardView: CardView!
     @IBOutlet weak var maleCheckBox: CheckBox!
+    private let chieldDetailViewModel = ChieldDetailViewModel()
+    private var genderSelection = ""
     
     
+    static func make() -> ChildDetailViewController {
+        let viewController = UIStoryboard(name: "ChieldDetail", bundle: nil).instantiateViewController(withIdentifier: Constants.storyboardId.childDetailViewController) as! ChildDetailViewController
+        return viewController
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
         setupUi()
-        
-        
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         cardView.fadeIn()
@@ -40,7 +45,7 @@ class ChildDetailViewController: UIViewController {
     }
     private func setupUi(){
         cardView.fadeOut()
-        cardView.isHidden = true // displaying animation
+        cardView.isHidden = true // for displaying animation properlly
         maleCheckBox.checkSelectionBtn.addTarget(self, action: #selector(maleButtonClicked), for: .touchUpInside)
         femailCheckBox.checkSelectionBtn.addTarget(self, action: #selector(femaileButtonClicked), for: .touchUpInside)
         otherGenderCheckBox.checkSelectionBtn.addTarget(self, action: #selector(otherGenderButtonClicked), for: .touchUpInside)
@@ -51,34 +56,47 @@ class ChildDetailViewController: UIViewController {
     }
     
     private func setupNavigationBar(){
-//        if #available(iOS 15, *) {
-//            let appearance = UINavigationBarAppearance()
-//            appearance.configureWithOpaqueBackground()
-//            appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-//            appearance.backgroundColor = UIColor.clear
-//            UINavigationBar.appearance().standardAppearance = appearance
-//            UINavigationBar.appearance().scrollEdgeAppearance = appearance
-//        }
-//
-//        UINavigationBar.appearance().tintColor = .white
+        
         navigationItem.title = Constants.childDetails
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
     @objc func maleButtonClicked(sender: UIButton) {
         maleCheckBox.isChecked = !maleCheckBox.isChecked
+        femailCheckBox.isChecked = false
+        otherGenderCheckBox.isChecked = false
+        genderSelection = chieldDetailViewModel.manageGender(gender: "M", selection: maleCheckBox.isChecked)
         
     }
     @objc func femaileButtonClicked(sender: UIButton) {
         femailCheckBox.isChecked = !femailCheckBox.isChecked
+        maleCheckBox.isChecked = false
+        otherGenderCheckBox.isChecked = false
+        genderSelection = chieldDetailViewModel.manageGender(gender: "F", selection: femailCheckBox.isChecked)
+        
         
     }
     @objc func otherGenderButtonClicked(sender: UIButton) {
         otherGenderCheckBox.isChecked = !otherGenderCheckBox.isChecked
-        
+        maleCheckBox.isChecked = false
+        femailCheckBox.isChecked = false
+        genderSelection = chieldDetailViewModel.manageGender(gender: "O", selection: otherGenderCheckBox.isChecked)
     }
     
     @IBAction func parentDetailClicked(_ sender: Any) {
+        
+        let validateChieldDetails = chieldDetailViewModel.validateChieldDetails(personalNumber: personalNumberTextField.text ?? "", name: nameTextField.text ?? "", age: ageTextField.text ?? "", gender: genderSelection, house: houseNumberTextField.text ?? "", street: streetTextField.text ?? "", post: postalTextField.text ?? "" , city: cityTextField.text ?? "")
+        
+        if(!validateChieldDetails.status && validateChieldDetails.message != ""){
+            alertPresent(title: "", message: validateChieldDetails.message)
+        }else{
+            // save chield details to the data base or call the post api
+            // in the sucess block naviagte to the next view cintroller.
+            let viewController = ParentDetailsViewController.make()
+            navigationController?.pushViewController(viewController, animated: true)
+
+        }
+
     }
     
 }

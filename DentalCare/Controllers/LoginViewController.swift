@@ -74,7 +74,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func registerClicked(_ sender: Any) {
-        
+        let viewController = ChildDetailViewController.make()
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
 
