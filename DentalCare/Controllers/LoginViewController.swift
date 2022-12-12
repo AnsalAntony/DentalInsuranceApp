@@ -14,6 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var textName: UITextField!
     @IBOutlet weak var textPersonalNumber: UITextField!
     @IBOutlet weak var cardView: CardView!
+    private let loginViewModel = LoginViewModel()
     
     
     override func viewDidLoad() {
@@ -56,10 +57,19 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginClicked(_ sender: Any) {
-        //        cardView.fadeOut(completion: {
-        //            (finished: Bool) -> Void in
-        //            self.ButtonRegister.isHidden = true
-        //        })
+        
+        let validateLogin = loginViewModel.validateLogin(personalNumber: textPersonalNumber.text ?? "", name: textName.text ?? "")
+        
+        if(!validateLogin.status && validateLogin.message != ""){
+            alertPresent(title: "", message: validateLogin.message)
+        }else{
+            // check chield personal number and name in the data base go inside
+            // if chiled not in the data base show the errro message "chield not regesterd please regester your chield details"
+            
+            let homeViewController = HomeViewController.make()
+            guard let navigationController = navigationController else { return }
+            navigationController.setViewControllers([homeViewController], animated: false)
+        }
         
     }
     

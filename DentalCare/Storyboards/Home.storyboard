@@ -72,6 +72,8 @@
                     <navigationItem key="navigationItem" id="kd6-nO-u61"/>
                     <connections>
                         <outlet property="insuranceTableView" destination="oEJ-db-obv" id="bH1-8Y-91c"/>
+                        <outlet property="mainView" destination="EDO-Ru-4Tx" id="gvs-vd-JhJ"/>
+                        <outlet property="statusSegument" destination="fDl-Ov-qRM" id="Kf6-oO-QIh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZC-A2-HnR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -81,7 +83,6 @@
         <!--Insurance Claim View Controller-->
         <scene sceneID="zMN-I6-YRh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="imS-Ig-Nv4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="InsuranceClaimViewController" id="7AJ-pd-KNt" customClass="InsuranceClaimViewController" customModule="DentalCare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sjs-SS-bR9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -492,6 +493,7 @@
                         <outlet property="yesCheckBox" destination="sKM-Vk-6H1" id="LBE-tU-tvd"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="imS-Ig-Nv4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1440.5797101449277" y="-265.17857142857144"/>
         </scene>
