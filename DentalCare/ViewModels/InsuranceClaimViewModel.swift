@@ -47,4 +47,15 @@ final class InsuranceClaimViewModel{
         return ""
     }
     
+    typealias CompletionHandler = (_ success:Bool, _ message: String) -> Void
+    func saveInsuranceClaim(pollicyNumber: String, date: String, reason: String, plan: String, otherClaimBool: Bool, completion: CompletionHandler){
+        
+        let claimModel = InsuranceClaimModel(policyNumber: pollicyNumber, dateInjury: date, reasonInjury: reason, insurancePlan: plan, otherClaim: otherClaimBool)
+        
+        DatabaseHelper.shared.saveItems(claimModel: claimModel)
+        completion(true,Constants.claimRegisteredSuccessfully)
+        
+    }
+    
+    
 }

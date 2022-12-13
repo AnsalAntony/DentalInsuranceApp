@@ -75,40 +75,40 @@ class InsuranceClaimViewController: UIViewController {
         platinumCheckBox.isChecked = false
         goldCheckBox.isChecked = false
         silverCheckBox.isChecked = false
-        selectedPlan = insuranceClaimViewModel.managePlan(plan: "Diamond", selection: diamondCheckBox.isChecked)
+        selectedPlan = insuranceClaimViewModel.managePlan(plan: Constants.diamond, selection: diamondCheckBox.isChecked)
     }
     @objc func platinumClicked(sender: UIButton) {
         diamondCheckBox.isChecked = false
         platinumCheckBox.isChecked = !platinumCheckBox.isChecked
         goldCheckBox.isChecked = false
         silverCheckBox.isChecked = false
-        selectedPlan = insuranceClaimViewModel.managePlan(plan: "Platinum", selection: platinumCheckBox.isChecked)
+        selectedPlan = insuranceClaimViewModel.managePlan(plan: Constants.platinum, selection: platinumCheckBox.isChecked)
     }
     @objc func goldnClicked(sender: UIButton) {
         diamondCheckBox.isChecked = false
         platinumCheckBox.isChecked = false
         goldCheckBox.isChecked = !goldCheckBox.isChecked
         silverCheckBox.isChecked = false
-        selectedPlan = insuranceClaimViewModel.managePlan(plan: "Gold", selection: goldCheckBox.isChecked)
+        selectedPlan = insuranceClaimViewModel.managePlan(plan: Constants.gold, selection: goldCheckBox.isChecked)
     }
     @objc func silverClicked(sender: UIButton) {
         diamondCheckBox.isChecked = false
         platinumCheckBox.isChecked = false
         goldCheckBox.isChecked = false
         silverCheckBox.isChecked = !silverCheckBox.isChecked
-        selectedPlan = insuranceClaimViewModel.managePlan(plan: "Silver", selection: silverCheckBox.isChecked)
+        selectedPlan = insuranceClaimViewModel.managePlan(plan: Constants.silver, selection: silverCheckBox.isChecked)
         
     }
     @objc func noClicked(sender: UIButton) {
         noCheckBox.isChecked = !noCheckBox.isChecked
         yesCheckBox.isChecked = false
-        selectedClaimString = insuranceClaimViewModel.manageOtherClaim(claim: "false", selection: noCheckBox.isChecked)
+        selectedClaimString = insuranceClaimViewModel.manageOtherClaim(claim: Constants.falseVal, selection: noCheckBox.isChecked)
         selectedClaimBool = false
     }
     @objc func yesClicked(sender: UIButton) {
         yesCheckBox.isChecked = !yesCheckBox.isChecked
         noCheckBox.isChecked = false
-        selectedClaimString = insuranceClaimViewModel.manageOtherClaim(claim: "true", selection: yesCheckBox.isChecked)
+        selectedClaimString = insuranceClaimViewModel.manageOtherClaim(claim: Constants.trueVal, selection: yesCheckBox.isChecked)
         selectedClaimBool = true
     }
     
@@ -121,8 +121,19 @@ class InsuranceClaimViewController: UIViewController {
         }else{
             // save claim details to the data base or call the post api
             // in the sucess block dismiss this  view controller and show message.
-            self.dismiss(animated: true, completion: nil)
-            delegate?.registerClaim(message: Constants.claimRegisteredSuccessfully)
+            
+            insuranceClaimViewModel.saveInsuranceClaim(pollicyNumber: policeNumberTextField.text ?? "", date: dateTextField.text ?? "", reason: reasonTextView.text ?? "", plan: selectedPlan, otherClaimBool: selectedClaimBool) { [weak self] success, message in
+                DispatchQueue.main.async {
+                    if(success){
+                        self?.dismiss(animated: true, completion: nil)
+                        self?.delegate?.registerClaim(message: Constants.claimRegisteredSuccessfully)
+                    }else{
+                        self?.alertPresent(title: "", message: message)
+                    }
+                   
+                }
+            }
+            
         }
        
     }

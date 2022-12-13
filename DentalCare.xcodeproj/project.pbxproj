@@ -40,6 +40,15 @@
 		4D929DEB2947762700BCFF52 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DEA2947762700BCFF52 /* PlaceholderTextView.swift */; };
 		4D929DED2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DEC2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift */; };
 		4D929DEF2947F59200BCFF52 /* BankDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DEE2947F59200BCFF52 /* BankDetailsViewModelTest.swift */; };
+		4D929DF22947FB9200BCFF52 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4D929DF12947FB9200BCFF52 /* Realm */; };
+		4D929DF42947FB9200BCFF52 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D929DF32947FB9200BCFF52 /* RealmSwift */; };
+		4D929DF62947FD8E00BCFF52 /* ChildDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DF52947FD8E00BCFF52 /* ChildDetailModel.swift */; };
+		4D929DF82947FDA600BCFF52 /* ParentDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DF72947FDA600BCFF52 /* ParentDetailModel.swift */; };
+		4D929DFA2947FDB800BCFF52 /* BankDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DF92947FDB800BCFF52 /* BankDetailModel.swift */; };
+		4D929DFC2947FDEB00BCFF52 /* InsuranceClaimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DFB2947FDEB00BCFF52 /* InsuranceClaimModel.swift */; };
+		4D929DFE2948874900BCFF52 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DFD2948874900BCFF52 /* DatabaseHelper.swift */; };
+		4D929E0029488CA900BCFF52 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DFF29488CA900BCFF52 /* HomeViewModel.swift */; };
+		4D929E0229489D9F00BCFF52 /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929E0129489D9F00BCFF52 /* HomeViewModelTest.swift */; };
 		4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBA2945EC9F00A54D5F /* Constants.swift */; };
 		4DAF3EBF2945FC4400A54D5F /* ParentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */; };
 		4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */; };
@@ -106,6 +115,13 @@
 		4D929DEA2947762700BCFF52 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		4D929DEC2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceClaimViewModelTest.swift; sourceTree = "<group>"; };
 		4D929DEE2947F59200BCFF52 /* BankDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewModelTest.swift; sourceTree = "<group>"; };
+		4D929DF52947FD8E00BCFF52 /* ChildDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildDetailModel.swift; sourceTree = "<group>"; };
+		4D929DF72947FDA600BCFF52 /* ParentDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailModel.swift; sourceTree = "<group>"; };
+		4D929DF92947FDB800BCFF52 /* BankDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailModel.swift; sourceTree = "<group>"; };
+		4D929DFB2947FDEB00BCFF52 /* InsuranceClaimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceClaimModel.swift; sourceTree = "<group>"; };
+		4D929DFD2948874900BCFF52 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		4D929DFF29488CA900BCFF52 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4D929E0129489D9F00BCFF52 /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
 		4DAF3EBA2945EC9F00A54D5F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailsViewController.swift; sourceTree = "<group>"; };
 		4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D929DF42947FB9200BCFF52 /* RealmSwift in Frameworks */,
+				4D929DF22947FB9200BCFF52 /* Realm in Frameworks */,
 				4D047B392944CFDE002F7980 /* TPKeyboardAvoidingSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +165,10 @@
 		4D047B1A2943E3ED002F7980 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4D929DF52947FD8E00BCFF52 /* ChildDetailModel.swift */,
+				4D929DF72947FDA600BCFF52 /* ParentDetailModel.swift */,
+				4D929DF92947FDB800BCFF52 /* BankDetailModel.swift */,
+				4D929DFB2947FDEB00BCFF52 /* InsuranceClaimModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +181,7 @@
 				4D929DDE29474DFB00BCFF52 /* ParentDetailsViewModel.swift */,
 				4D929DE429476D0A00BCFF52 /* BankDetailsViewModel.swift */,
 				4D929DE82947745700BCFF52 /* InsuranceClaimViewModel.swift */,
+				4D929DFF29488CA900BCFF52 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -206,6 +229,7 @@
 				4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */,
 				4D929DE0294755F400BCFF52 /* Formaters.swift */,
 				4D929DEA2947762700BCFF52 /* PlaceholderTextView.swift */,
+				4D929DFD2948874900BCFF52 /* DatabaseHelper.swift */,
 			);
 			path = "Utilities and Extensions";
 			sourceTree = "<group>";
@@ -310,6 +334,7 @@
 				4D929DE2294766AA00BCFF52 /* ParentDetailsViewModelTest.swift */,
 				4D929DEC2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift */,
 				4D929DEE2947F59200BCFF52 /* BankDetailsViewModelTest.swift */,
+				4D929E0129489D9F00BCFF52 /* HomeViewModelTest.swift */,
 			);
 			path = DentalCareTests;
 			sourceTree = "<group>";
@@ -350,6 +375,8 @@
 			name = DentalCare;
 			packageProductDependencies = (
 				4D047B382944CFDE002F7980 /* TPKeyboardAvoidingSwift */,
+				4D929DF12947FB9200BCFF52 /* Realm */,
+				4D929DF32947FB9200BCFF52 /* RealmSwift */,
 			);
 			productName = DentalCare;
 			productReference = 4D54A9ED2943C84400CF70FB /* DentalCare.app */;
@@ -425,6 +452,7 @@
 			mainGroup = 4D54A9E42943C84400CF70FB;
 			packageReferences = (
 				4D047B372944CFDE002F7980 /* XCRemoteSwiftPackageReference "TPKeyboardAvoidingSwift" */,
+				4D929DF02947FB9200BCFF52 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 4D54A9EE2943C84400CF70FB /* Products */;
 			projectDirPath = "";
@@ -490,16 +518,22 @@
 				4D1190042946884D0058A527 /* InsuranceClaimViewController.swift in Sources */,
 				4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */,
 				4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */,
+				4D929DFC2947FDEB00BCFF52 /* InsuranceClaimModel.swift in Sources */,
+				4D929DFE2948874900BCFF52 /* DatabaseHelper.swift in Sources */,
 				4D54A9F32943C84400CF70FB /* SceneDelegate.swift in Sources */,
 				4DE6B11929464B100059357A /* HomeViewController.swift in Sources */,
 				4DE6B11C294654610059357A /* InsuranceTableViewCell.swift in Sources */,
 				4D73B31929453E030097795F /* CheckBox.swift in Sources */,
 				4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */,
+				4D929DFA2947FDB800BCFF52 /* BankDetailModel.swift in Sources */,
 				4D929DE1294755F400BCFF52 /* Formaters.swift in Sources */,
+				4D929DF62947FD8E00BCFF52 /* ChildDetailModel.swift in Sources */,
 				4D047B302944A83B002F7980 /* BottomButton.swift in Sources */,
 				4D11900629468EC90058A527 /* LoginViewModel.swift in Sources */,
 				4D929DDF29474DFB00BCFF52 /* ParentDetailsViewModel.swift in Sources */,
 				4D047B2D2943FF42002F7980 /* AlertView+Extensions.swift in Sources */,
+				4D929E0029488CA900BCFF52 /* HomeViewModel.swift in Sources */,
+				4D929DF82947FDA600BCFF52 /* ParentDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +547,7 @@
 				4D929DEF2947F59200BCFF52 /* BankDetailsViewModelTest.swift in Sources */,
 				4D929DE3294766AA00BCFF52 /* ParentDetailsViewModelTest.swift in Sources */,
 				4D54AA0B2943C84500CF70FB /* DentalCareTests.swift in Sources */,
+				4D929E0229489D9F00BCFF52 /* HomeViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,6 +891,14 @@
 				kind = branch;
 			};
 		};
+		4D929DF02947FB9200BCFF52 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -863,6 +906,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4D047B372944CFDE002F7980 /* XCRemoteSwiftPackageReference "TPKeyboardAvoidingSwift" */;
 			productName = TPKeyboardAvoidingSwift;
+		};
+		4D929DF12947FB9200BCFF52 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D929DF02947FB9200BCFF52 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		4D929DF32947FB9200BCFF52 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D929DF02947FB9200BCFF52 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 
