@@ -21,11 +21,31 @@ struct Constants {
     static let chieldPostErr = "Enter postal code"
     static let chieldCityErr = "Enter city code"
     static let childDetails = "Child Details"
+    
     static let parentDetails = "Parent Details"
+    static let parentEmailErr = "Please enter your email address"
+    static let parentPersonalErr = "Please enter your personal number"
+    static let parentNameErr = "Please enter your name"
+    static let parentphomeErr = "Please enter your mobile number"
+    static let parentRelationErr = "Please mention the relationship with the child"
+    
+    static let bankIdErr = "Enter your bank Id"
+    static let bankAccountErr = "Enter your bank acount number"
+    static let bankNameError = "Enter your bank bank name"
+    
+    static let claimPolicyErr = "Enter the policy number"
+    static let claimDateErr = "Please enter child injured date"
+    static let claimReasonError = "Please describe how the child got injured"
+    static let claimPlanError = "Select your insurance plan"
+    static let otherclaimError = "Please describe if you made any other claime in the same period"
+    
     static let bankDetails = "Bank Details"
     static let dentalCare = "Dental Care"
+    static let emaiValidation = "Please enter a valied email address"
     static let cardViewTopConstraint: CGFloat = 100
     static let cardViewBottomConstraint: CGFloat = 50
+    static let formateTodoDate = "dd/MM/yyyy"
+    static let injurieReason = "Please mention the reason for injurie *"
     
     struct nibId {
        static let insuranceTableViewCell =  "InsuranceTableViewCell"
