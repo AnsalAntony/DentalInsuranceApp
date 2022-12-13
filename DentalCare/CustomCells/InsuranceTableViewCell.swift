@@ -31,5 +31,15 @@ class InsuranceTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configureCell(insuranceClaimModel: InsuranceClaimModel) {
+        
+        nameLabel.text = insuranceClaimModel.policyNumber
+        descriptionLabel.text = insuranceClaimModel.reasonInjury
+        if let value = insuranceClaimModel.insurancePlan{
+            planLabel.text = "Plan : " + value
+        }
+        dateLabel.text = insuranceClaimModel.dateInjury
+    }
+    
 }
 

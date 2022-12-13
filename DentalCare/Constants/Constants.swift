@@ -47,6 +47,13 @@ struct Constants {
     static let formateTodoDate = "dd/MM/yyyy"
     static let injurieReason = "Please mention the reason for injurie *"
     
+    static let diamond = "Diamond"
+    static let platinum = "Platinum"
+    static let gold = "Gold"
+    static let silver = "Silver"
+    static let falseVal = "false"
+    static let trueVal = "true"
+
     struct nibId {
        static let insuranceTableViewCell =  "InsuranceTableViewCell"
     }
