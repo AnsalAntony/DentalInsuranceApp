@@ -74,7 +74,7 @@
                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address *" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v9T-42-d9t">
                                                                         <rect key="frame" x="7" y="2" width="315" height="46"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                                                     </textField>
                                                                 </subviews>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

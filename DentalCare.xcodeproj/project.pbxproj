@@ -32,6 +32,14 @@
 		4D54AA172943C84500CF70FB /* DentalCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */; };
 		4D73B31729453DA40097795F /* CheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D73B31629453DA40097795F /* CheckBox.xib */; };
 		4D73B31929453E030097795F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73B31829453E030097795F /* CheckBox.swift */; };
+		4D929DDF29474DFB00BCFF52 /* ParentDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DDE29474DFB00BCFF52 /* ParentDetailsViewModel.swift */; };
+		4D929DE1294755F400BCFF52 /* Formaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DE0294755F400BCFF52 /* Formaters.swift */; };
+		4D929DE3294766AA00BCFF52 /* ParentDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DE2294766AA00BCFF52 /* ParentDetailsViewModelTest.swift */; };
+		4D929DE529476D0A00BCFF52 /* BankDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DE429476D0A00BCFF52 /* BankDetailsViewModel.swift */; };
+		4D929DE92947745700BCFF52 /* InsuranceClaimViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DE82947745700BCFF52 /* InsuranceClaimViewModel.swift */; };
+		4D929DEB2947762700BCFF52 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DEA2947762700BCFF52 /* PlaceholderTextView.swift */; };
+		4D929DED2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DEC2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift */; };
+		4D929DEF2947F59200BCFF52 /* BankDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D929DEE2947F59200BCFF52 /* BankDetailsViewModelTest.swift */; };
 		4DAF3EBB2945EC9F00A54D5F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBA2945EC9F00A54D5F /* Constants.swift */; };
 		4DAF3EBF2945FC4400A54D5F /* ParentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */; };
 		4DAF3EC12946382D00A54D5F /* BankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */; };
@@ -90,6 +98,14 @@
 		4D54AA162943C84500CF70FB /* DentalCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentalCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D73B31629453DA40097795F /* CheckBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBox.xib; sourceTree = "<group>"; };
 		4D73B31829453E030097795F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		4D929DDE29474DFB00BCFF52 /* ParentDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailsViewModel.swift; sourceTree = "<group>"; };
+		4D929DE0294755F400BCFF52 /* Formaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formaters.swift; sourceTree = "<group>"; };
+		4D929DE2294766AA00BCFF52 /* ParentDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailsViewModelTest.swift; sourceTree = "<group>"; };
+		4D929DE429476D0A00BCFF52 /* BankDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewModel.swift; sourceTree = "<group>"; };
+		4D929DE82947745700BCFF52 /* InsuranceClaimViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceClaimViewModel.swift; sourceTree = "<group>"; };
+		4D929DEA2947762700BCFF52 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		4D929DEC2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceClaimViewModelTest.swift; sourceTree = "<group>"; };
+		4D929DEE2947F59200BCFF52 /* BankDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewModelTest.swift; sourceTree = "<group>"; };
 		4DAF3EBA2945EC9F00A54D5F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4DAF3EBE2945FC4400A54D5F /* ParentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDetailsViewController.swift; sourceTree = "<group>"; };
 		4DAF3EC02946382D00A54D5F /* BankDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +156,9 @@
 			children = (
 				4D11900529468EC90058A527 /* LoginViewModel.swift */,
 				4D11900B2946A9040058A527 /* ChieldDetailViewModel.swift */,
+				4D929DDE29474DFB00BCFF52 /* ParentDetailsViewModel.swift */,
+				4D929DE429476D0A00BCFF52 /* BankDetailsViewModel.swift */,
+				4D929DE82947745700BCFF52 /* InsuranceClaimViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -185,6 +204,8 @@
 				4D047B2A2943FF2D002F7980 /* UIView+Extensions.swift */,
 				4D047B2C2943FF42002F7980 /* AlertView+Extensions.swift */,
 				4D047B3A2944EAF8002F7980 /* Animation+Extensions.swift */,
+				4D929DE0294755F400BCFF52 /* Formaters.swift */,
+				4D929DEA2947762700BCFF52 /* PlaceholderTextView.swift */,
 			);
 			path = "Utilities and Extensions";
 			sourceTree = "<group>";
@@ -286,6 +307,9 @@
 				4D54AA0A2943C84500CF70FB /* DentalCareTests.swift */,
 				4D119009294692790058A527 /* LoginViewModelTest.swift */,
 				4D11900D2946B2D60058A527 /* ChieldDetailViewModelTest.swift */,
+				4D929DE2294766AA00BCFF52 /* ParentDetailsViewModelTest.swift */,
+				4D929DEC2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift */,
+				4D929DEE2947F59200BCFF52 /* BankDetailsViewModelTest.swift */,
 			);
 			path = DentalCareTests;
 			sourceTree = "<group>";
@@ -453,11 +477,14 @@
 			files = (
 				4D047B3B2944EAF8002F7980 /* Animation+Extensions.swift in Sources */,
 				4D047B2B2943FF2D002F7980 /* UIView+Extensions.swift in Sources */,
+				4D929DE92947745700BCFF52 /* InsuranceClaimViewModel.swift in Sources */,
 				4D11900C2946A9040058A527 /* ChieldDetailViewModel.swift in Sources */,
 				4D047B322944B092002F7980 /* CardView.swift in Sources */,
 				4DAF3EBF2945FC4400A54D5F /* ParentDetailsViewController.swift in Sources */,
 				4D047B232943E55B002F7980 /* LoginViewController.swift in Sources */,
+				4D929DE529476D0A00BCFF52 /* BankDetailsViewModel.swift in Sources */,
 				4D54A9F12943C84400CF70FB /* AppDelegate.swift in Sources */,
+				4D929DEB2947762700BCFF52 /* PlaceholderTextView.swift in Sources */,
 				4D54A9FB2943C84400CF70FB /* DentalCare.xcdatamodeld in Sources */,
 				4D047B362944BAD0002F7980 /* TextFieldHoldingView.swift in Sources */,
 				4D1190042946884D0058A527 /* InsuranceClaimViewController.swift in Sources */,
@@ -468,8 +495,10 @@
 				4DE6B11C294654610059357A /* InsuranceTableViewCell.swift in Sources */,
 				4D73B31929453E030097795F /* CheckBox.swift in Sources */,
 				4D047B3F29451F5B002F7980 /* ChildDetailViewController.swift in Sources */,
+				4D929DE1294755F400BCFF52 /* Formaters.swift in Sources */,
 				4D047B302944A83B002F7980 /* BottomButton.swift in Sources */,
 				4D11900629468EC90058A527 /* LoginViewModel.swift in Sources */,
+				4D929DDF29474DFB00BCFF52 /* ParentDetailsViewModel.swift in Sources */,
 				4D047B2D2943FF42002F7980 /* AlertView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +509,9 @@
 			files = (
 				4D11900A294692790058A527 /* LoginViewModelTest.swift in Sources */,
 				4D11900E2946B2D60058A527 /* ChieldDetailViewModelTest.swift in Sources */,
+				4D929DED2947EC8F00BCFF52 /* InsuranceClaimViewModelTest.swift in Sources */,
+				4D929DEF2947F59200BCFF52 /* BankDetailsViewModelTest.swift in Sources */,
+				4D929DE3294766AA00BCFF52 /* ParentDetailsViewModelTest.swift in Sources */,
 				4D54AA0B2943C84500CF70FB /* DentalCareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
